@@ -1,0 +1,40 @@
+.header{
+	height: 50px;
+	line-height: 50px;
+	background: #c30000;
+	color: white;
+	display: flex;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 21px;
+}
+.view{
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	display: flex;
+}
+.view input{
+	margin-top: 10px;
+	margin-left: 16px;
+	border: 1px solid #eeeded;
+	width: 65%;
+	height: 23px;
+	border-radius: 5px;
+	background: url(../img/sousuo.png) no-repeat;
+	padding-left: 20px;
+	outline: none;
+	background-color: #fcfbfb;
+}
+.view button{
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 18%;
+	height: 23px;
+	border-radius:5px;
+	outline: none;
+	background-color: #e9e9e9;
+}

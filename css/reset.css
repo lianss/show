@@ -46,20 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-input{
-	font: inherit;
+input {
+	padding: 0;
+	border: none;
+	font:inherit;
 }
-
 .clearfix {
 	overflow: auto;
-	_height: 1%
-}
-a{
-	text-decoration: none;
-	color: black;
-}
-	
-/*.clearfix {
-	overflow: auto;
+/*	_height: 1%;*/
 	zoom: 1;
-}*/
+}
+
+
+

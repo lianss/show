@@ -1,0 +1,111 @@
+.header {
+	background: url(../img/a_03_03.png);
+	color: white;
+	display: flex;
+	padding: 15px 0px 12px 0px;
+	font-size: 16px;
+}
+.header .center {
+	flex: 1;
+	text-align: center;
+}
+.header .left {
+	width: 20%;
+	padding-left: 12px;
+}
+.header .right {
+	width: 20%;
+}
+.nav {
+	position: relative;
+	background: url(../img/b.png);
+}
+.nav button {
+	width: 20%;
+	font-size: 12px;
+	border-radius: 8px;
+	margin: 4px auto;
+}
+.nav button.left{
+	background: #7b7b7b;
+	width: 20%;
+	margin-left: 20%;
+}
+/*.nav button.left img{
+	width: 2%;
+	height: 50%;
+	position: absolute;
+	left: 36%;
+}*/
+.nav button.center{
+	width: 20%;
+}
+.nav button.center img{
+	width: 2%;
+	height: 50%;
+	position: absolute;
+	left: 57%;
+}
+.nav button.right{
+	width: 20%;
+}
+.nav button.right img{
+	width: 2%;
+	height: 50%;
+	position: absolute;
+	left: 78%;	
+}
+.content{
+	overflow: hidden;
+}
+.content p{
+	font-size: 14px;
+	padding: 5px 0px 0px 10px;
+	font-weight: bold;
+}
+.content .row{
+	display: flex;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.content .row .left{
+	width: 20%;
+	margin-left: 24px;
+}
+.content .row .left img{
+	border: 1px solid #ccc;
+	width: 65px;
+	height: 70px;
+}
+.content .row .center{
+	flex: 1;
+	margin-left: -13px;
+}
+.content .row .center p{
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 3px;
+}
+.content .row .center .one{
+	text-decoration:line-through;
+	color: gray;
+	font-size: 12px;
+}
+.content .row .center .two{
+	color: gray;
+	font-size: 12px;
+}
+.content .row .center .two span{
+	color: red;
+}
+.content .row .right{
+	width: 20%;
+}
+.content .row .right span{
+	background: url(../img/m.png) no-repeat;
+	color: white;
+	padding: 5px;
+	position: relative;
+	bottom: -45px;
+	right: -10px;
+}

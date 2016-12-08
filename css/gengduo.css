@@ -1,0 +1,58 @@
+.header{
+	height: 50px;
+	line-height: 50px;
+	background: #c30000;
+	color: white;
+	display: flex;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	justify-content: center;/*水平居中*/
+	align-items: center;
+	font-size: 21px;
+}
+.view{
+	position: absolute;
+	top: 50px;
+	bottom: 60px;
+	width: 100%;
+}
+.view .rows{
+	width: 90%;	
+	margin: 0 auto;
+	border: 1px solid grey;
+	margin-top: 13px;
+	border-radius: 5px;
+	height: 30%;
+}
+.view .rows .row{
+	border-bottom: 1px solid grey;
+	display: flex;
+	height: 34%;
+	align-items: center;
+}
+.view .rows .row lable{
+	padding-left: 5px;
+	flex: 1;
+	font-size: 25px;
+	font-weight: bold;
+	color: #000000;
+}
+.view .rows .row .gt{
+	width: 1em;
+}
+.view .rows .row .gt img{
+	width: 10px;
+	height: 15px;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+html,
+body {
+  width: 100%;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+}
+.all .pinpai {
+  width: 100%;
+  height: 9%;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+}
+.all .pinpai .ps {
+  flex: 1;
+}
+.all .pinpai .btn {
+  flex: 1;
+}
+.all .pinpai.color {
+  background: #ededed;
+}

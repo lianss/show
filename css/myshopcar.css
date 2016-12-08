@@ -1,0 +1,33 @@
+html,body{
+	width: 100%;
+}
+.header{
+	display: flex;
+	background: #d60000;
+	line-height: 2em;
+}
+.header li{
+	flex: 1;
+	font-size: 24px;
+	color: white;
+}
+.header .wenzi{
+	padding: 11px 0;
+	width: 6em;
+}
+.header .right{
+	line-height: 2em;
+	padding: 3px 0;
+    background: url(../img/pinpai.png) no-repeat center;
+	background-size: 70% 50%;
+}
+.header .right a{
+	color: white;
+	font-size: 18px;
+	margin-left: 36px;	
+}
+p{
+	color: #d2d2d2;
+	font-size: 40px;
+	padding: 50% 5%;
+}

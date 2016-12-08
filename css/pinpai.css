@@ -2,23 +2,29 @@ html,
 body {
   width: 100%;
 }
-.all {
+.pinpai {
   display: flex;
   flex-direction: column;
+  margin-top: 66px;
+  font-size: 18px;
 }
-.all .pinpai {
-  width: 100%;
-  height: 9%;
-  position: absolute;
-  overflow: hidden;
+.pinpai .list {
   display: flex;
+  line-height: 2em;
 }
-.all .pinpai .ps {
+.pinpai .list .left {
+  flex: 7;
+  padding-left: 10px;
+}
+.pinpai .list .left .special {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 13px;
+}
+.pinpai .list .right {
   flex: 1;
+  padding-top: 20px;
 }
-.all .pinpai .btn {
-  flex: 1;
-}
-.all .pinpai.color {
+.pinpai .list.color {
   background: #ededed;
 }
